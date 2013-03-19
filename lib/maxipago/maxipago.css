@@ -1,0 +1,190 @@
+/* Modal background */
+/* Janela modal (fundo) */
+.MPModal { background-color: #000000; }
+
+/* Payment page */
+/* Página de pagamento */
+.MPwindow { background-color: #ffffff; border-radius: 15px; }
+
+/* Buy button */
+/* Botão de Comprar */
+.MPbuyButton {
+    background-color: #00A806;
+    border-radius: 6px 6px 6px 6px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+    padding: 6px 24px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/* Back/Return button */
+/* Botão de voltar/cancelar */
+.MPbackButton {
+    background-color: #00A806;
+    border-radius: 6px 6px 6px 6px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 45px;
+    padding: 6px 24px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/* Close modal window button */
+/* Botão de fechar janela modal */ 
+.mP_closeButton {
+    background-color: #EDEDED;
+    border-radius: 6px 6px 6px 6px;
+    color: #5C8764;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+
+/* Section that displays Reference Number and Amount information */
+/* Seção que mostra as informações do Número do Pedido e Valor */
+.MPTableHeader {
+    text-align: left;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* Section that displays the form elements (Card holder name, credit card number, etc) */
+/* Seção que mostra os elementos do formulário (Nome do cliente, número do cartão, etc) */
+.MPTableForm {
+    text-align: left;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* Section that displays the form buttons (Buy, Back, Close) */
+/* Seção que mostra os botões do formulário (Comprar, Cancelar, Fechar) */
+.MPTableButtons {
+    text-align: left;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 5%;
+	padding: 5px;
+}
+
+/* Form elements when 'Card Holder Name' is divided in two fields: First and Last name */
+/* Elementos do form quando 'Nome do Titular' está dividido em dois campos: Nome e Sobrenome */
+.mpNames {
+    text-align: left;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 5%;  
+}
+
+/* Input element for First Name */
+/* Elemento de input para o Nome */
+.inputFirstName {
+}
+
+/* Input element for Last Name */
+/* Elemento de input para o Sobrenome */
+.inputLastName { 
+}
+
+/* Input and Select elements in the payment form */
+/* Elementos de Input e Select no formulário de pagamento */
+.MPTableForm input, .MPTableForm select { color: #08800C; }
+
+/* Text in the payment form */
+/* Texto no formulário de pagamento */
+.MPtext {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;
+}
+
+/* Text for error messages in the payment form (such as 'Invalid Field') */
+/* Texto para mensagens de erro no forumlário de pagamento (como por exemplo 'Campo invlaido') */
+.MPerrorText {
+    color: red !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin-left: 5px !important;
+}
+
+/* Text for Awaiting Payment message (when the request is sent and is being processed by maxiPago! */
+/* Texto da mensagem de Aguardando Pagamento (quando a transação foi enviada e está sendo processada pela maxiPago! */
+.MPLoading {
+    color:#5c8764 !important;
+    font-weight:bold !important;
+    font-size:12px !important;
+    font-family: arial;
+}
+
+/* Text for Transaction Response message (Approved or Declined result) */
+/* Texto da mensagem de Resposta da Transação (resultado de Aprovada ou Negada) */
+.MPResponse {
+    color:Blue !important;
+    font-weight:bold !important;
+    font-size:12px !important;
+    font-family: arial;
+}
+
+/* Text for Reference Number label */
+/* Texto para o título de Número do Pedido */
+.MPrefnum {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;        
+}
+
+/* Text for Reference Number value */
+/* Texto para o Número do Pedido */
+.MPrefNumValue {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;    
+}
+
+/* Text for Order Amount label */
+/* Texto para o título de Valor do Pedido */
+.TRAmount {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;        
+}
+
+/* Text for Order Amount value */
+/* Texto para o Valor do Pedido */
+.MPAmount {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;        
+}
+
+/* Text for Order Amount value */
+/* Texto para o Valor do Pedido */
+.MPAmountValue {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial;    
+}
+
+/* Text for Installment information */
+/* Texto para informações de Parcelamento */
+.MPInstallments {
+    font-size: 12px !important;
+    font-weight: bold;
+    font-family: arial; 
+}

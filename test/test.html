@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<title>maxiPago! Lightbox</title>
+<head>
+<meta charset="utf-8">
+<style>
+#mp {color:#000000;font-family:verdana;font-size:15pt;text-align: center;}
+</style>
+</head>
+<body><br>
+<div id="mp">
+<strong>Test Product</strong>
+<br><br>
+<p>R$0,99</p>
+</div>
+<br><br>
+<p align="center"><input type="button" value="Purchase" style="width:10%" onclick="purchase()"></p>
+<script src="jquery-1.7.2.min.js"></script>
+<script src="maxiPago-1.1.js"></script>
+<script>
+function purchase() {
+	var transaction = {
+		hp_processor_id: "1",
+		hp_txntype: "sale",
+		hp_method: "ccard",
+		hp_amount: "10.00",
+		hp_refnum: "ORD1028307193",
+		hp_sig_timestamp: "1312201855",
+		hp_sig_id: "1234",
+		hp_sig_itemid: "1028307193",
+//		hp_signature: "0c067be27be8e6cc092b7fe23bdb9b77",
+	};
+	$MP.Buy(transaction);
+}
+function respMPLib() {
+	if ($MP.resp.hp_responsecode == "0") { alert("Your payment was Approved\nAuth Code:" + $MP.resp.hp_authcode); }
+	else { alert("Sorry, your payment has been declined"); }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<!-- Merchant ID assigned by maxiPago! -->
+	<!-- Merchant ID gerado pela maxiPago! -->
+	<merchantId>100</merchantId>    
+	<!-- URL assigned by maxiPago! -->
+	<!-- URL designada pela maxiPago! -->
+	<server_url>https://testsecure.maxipago.net/hostpay/docs/js/maxiPago.htm</server_url>     
+	<!-- URL of the response bridge, located in your server -->
+	<!-- URL da página de resposta, dentro do seu servidor -->
+	<server_url_response>http://localhost/visual/lib/maxipago/return.htm</server_url_response>     
+	<!-- Width of modal window in pixels -->
+	<!-- Largura da janela modal em pixels -->
+	<form_width>590</form_width>     
+	<!-- Height of modal window in pixels -->
+	<!-- Altura da janela modal em pixels -->
+	<form_height>400</form_height>     
+	<!-- Show reference number in payment window (boolean) -->
+	<!-- Mostrar número do pedido na janela de pagamento (boleana) -->
+	<showRefNum>true</showRefNum>
+	<!-- Show order amount in payment window (boolean) -->
+	<!-- Mostrar valor do pedido na janela de pagamento (boleana) -->
+	<showAmount>true</showAmount>
+</config>
