@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dictionary>
+	<!-- Card holder name -->
+	<!-- Nome completo do titular do cartão -->
+	<Field_customerName>Titular do Cartão:</Field_customerName>
+	<!-- Card holder first name -->
+	<!-- Nome do titular do cartão -->
+	<Field_firstName>Nome:</Field_firstName>
+	<!-- Card holder last name -->
+	<!-- Sobrenome do titular do cartão -->
+	<Field_lastName>Sobrenome:</Field_lastName>
+	<!-- Card number -->
+	<!-- Número do cartão de crédito -->
+	<Field_cardNumber>Número do Cartão:</Field_cardNumber>
+	<!-- Card expiration date -->
+	<!-- Data de vencimento do cartão -->
+	<Field_expirationDate>Data de Vencimento:</Field_expirationDate>
+	<!-- Card verfication code -->
+	<!-- Código de segurança do cartão -->
+	<Field_CVV>Código de Segurança:</Field_CVV>
+	<!-- Reference number -->
+	<!-- Número do pedido -->
+	<refNum>Nº do Pedido: </refNum>	
+	<!-- Order amount -->
+	<!-- Valor do pedido -->
+	<amount>Total: </amount>
+	<!-- Currency symbol or code -->
+	<!-- Cifrão ou código da moeda -->
+	<currency>R$</currency>
+	<!-- With interests charged (installment transactions only) -->
+	<!-- Parcelamento com juros cobrados pelo cartão -->
+	<with_charge_interest>com juros</with_charge_interest>
+	<!-- Without interests charged (installment transactions only) -->
+	<!-- Parcelamento sem juros -->
+	<without_charge_interest>sem juros</without_charge_interest>
+	<!-- Separator for installment calculation -->
+	<!-- Separador de cálculo de parecelas (3x DE R$100,00) -->
+	<separator_amount>de</separator_amount>
+	<!-- Buy button -->
+	<!-- Botão de comprar -->
+	<button_confirm>Comprar</button_confirm> 	
+	<!-- Back button -->
+	<!-- Botão de voltar/cancelar -->
+	<button_cancel>Voltar</button_cancel> 	
+	<!-- Close button -->
+	<!-- Botão de fechar -->
+	<button_close>Fechar</button_close> 	
+	<!-- Wait message for transaction in process -->
+	<!-- Mensagem de espera para transação em andamento -->
+	<loading>Por favor aguarde, sua transação está sendo processada.</loading>
+	<!-- Message for transaction DECLINED -->
+	<!-- Mensagem para transação NEGADA -->
+	<error>Desculpe, ocorreu um erro na transação</error>
+	<!-- Message for trasaction APPROVED -->
+	<!-- Mensagem para transação APROVADA -->
+	<success>TRANSAÇÃO APROVADA</success> 	
+	<!-- Error message of invalid/blank name -->
+	<!-- Mensagem de erro de nome inválido/em branco -->
+	<customerName_error>Nome Inválido</customerName_error>
+	<!-- Error message of invalid/blank first or last name -->
+	<!-- Mensagem de erro de nome ou sobrenome inválido/em branco -->
+	<customerNames_error>Um dos nomes está inválido</customerNames_error>
+	<!-- Error message of invalid/blank card numner -->
+	<!-- Mensagem de erro de cartão de crédito inválido/em branco -->
+	<cardNumber_error>Cartão Inválido</cardNumber_error>	
+	<!-- Error message of expired card -->
+	<!-- Mensagem de erro de cartão vencido -->
+	<expirationDate>Cartão Vencido</expirationDate> 	
+	<!-- Error message of invalid/blank CVV -->
+	<!-- Mensagem de erro de CVV inválido/em branco -->
+	<cvv_error>Cód. Seg. Inválido</cvv_error> 
+</dictionary>
