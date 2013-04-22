@@ -14,7 +14,7 @@ A Lightbox contém os seguintes arquivos:
 
 ```
   /lib/  
-  |-- maxiPago-1.1.js  
+  |-- maxiPago-1.2.js  
   |-- jquery-1.7.2.min.js   
   /maxipago/  
     |-- maxipago.css  
@@ -28,7 +28,7 @@ Insira o JavaScript da **maxiPago!** e o **jQuery 1.7.2+** em seu código, logo 
 ```html
 ...
 <script src="/caminho/do/diretorio/jquery-1.7.2.min.js"></script>
-<script src="/caminho/do/diretorio/maxiPago-1.1.js"></script>
+<script src="/caminho/do/diretorio/maxiPago-1.2.js"></script>
 </body>
 ```
 

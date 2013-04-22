@@ -14,7 +14,7 @@
 	<form_width>590</form_width>     
 	<!-- Height of modal window in pixels -->
 	<!-- Altura da janela modal em pixels -->
-	<form_height>450</form_height>     
+	<form_height>420</form_height>     
 	<!-- Show reference number in payment window (boolean) -->
 	<!-- Mostrar número do pedido na janela de pagamento (boleana) -->
 	<showRefNum>true</showRefNum>

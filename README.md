@@ -14,7 +14,7 @@ The Lightbox lib contains the following files:
 
 ```
   /lib/  
-  |-- maxiPago-1.1.js  
+  |-- maxiPago-1.2.js  
   |-- jquery-1.7.2.min.js   
   /maxipago/  
     |-- maxipago.css  
@@ -28,7 +28,7 @@ Insert the **maxiPago!** and **jQuery 1.7.2+** files in your page, right before 
 ```html
 ...
 <script src="/path/to/directory/lib/jquery-1.7.2.min.js"></script>
-<script src="/path/to/directory/lib/maxiPago-1.1.js"></script>
+<script src="/path/to/directory/lib/maxiPago-1.2.js"></script>
 </body>
 ```
 
